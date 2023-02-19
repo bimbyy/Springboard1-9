@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+</body>
+</html>
+
+<!-- Part 1-->
+
+document.getElementById("container");
+
+<!-- Part 2-->
+document.querySelector("#container")
+
+<!-- Part 3-->
+document.querySelectorAll(".second")
+
+<!-- Part 4-->
+document.querySelector("ol.third");
+
+<!-- Part 5-->
+let foundDiv = document.querySelector("#container");
+foundDiv.innerText = "Hello";
+
+<!-- Part 6-->
+let footer = document.querySelector(".footer");
+footer.className += "main";
+
+<!-- Part 7-->
+let footer = document.querySelector(".footer");
+footer.classList.remove("main");
+
+<!-- Part 8-->
+let newLi = document.createElement("li");
+
+<!-- Part 9-->
+newLi.innerText = "four"
+
+<!-- Part 10-->
+let lists = document.querySelector("ul");
+list.appendChild(newLi);
+
+<!-- Part 11-->
+
+<!-- Part 12-->
+let footer = document.querySelector(".footer");
+footer.remove();

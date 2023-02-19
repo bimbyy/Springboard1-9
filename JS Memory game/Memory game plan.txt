@@ -1,0 +1,5 @@
+Clicking a card should change ht background color to be the color of the class it has
+users should only be able to change at most two cards at a time
+clicking on two matching cards should be a MATCH those cards stay face up
+When clicking two cards that dont match they should stay for 1 more click then hide again (use setTimeout to execute code after 1 second)
+
